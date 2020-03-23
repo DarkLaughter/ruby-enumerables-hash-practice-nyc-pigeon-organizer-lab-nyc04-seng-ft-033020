@@ -2,7 +2,7 @@
 def nyc_pigeon_organizer(data)
       pigeon_hash = {}
 
-      pigeon_data.each do |outer_h, inner_h|
+      data.each do |outer_h, inner_h|
         inner_h.each do |key, pigeons|
           pigeons.each do |pigeon|
 
