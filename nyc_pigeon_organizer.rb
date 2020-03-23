@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
 
             if pigeon_hash[pigeon][outer_h] == nil
               pigeon_hash[pigeon][outer_h] = []
-              end
+            end
 
            pigeon_hash[pigeon][outer_h] << key.to_s
           end
